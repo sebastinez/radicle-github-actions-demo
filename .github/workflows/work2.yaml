@@ -19,5 +19,9 @@ jobs:
           ls ${{ github.workspace }}
       - run: sleep 6s
       - run: echo "This job's status is ${{ job.status }}."
-      - run: asddfsa
- 
+      - run: echo "qwe" > qwe.txt
+      - run: touch test-file
+      - uses: actions/upload-artifact@v3
+        with:
+          name: artifact-name:
+          path: ./
