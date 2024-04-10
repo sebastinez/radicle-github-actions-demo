@@ -23,5 +23,6 @@ jobs:
       - run: echo "This job's status is ${{ job.status }}."
       - uses: actions/upload-artifact@v3
         with:
-          name: Explore-GitHub-Actions
+          name: Explore-GitHub-Actionss
           path: qwe.txt 
+          path: asd.txt
