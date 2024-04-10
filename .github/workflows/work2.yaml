@@ -23,5 +23,5 @@ jobs:
       - run: touch test-file
       - uses: actions/upload-artifact@v3
         with:
-          name: artifact-name:
+          name: artifact-name
           path: ./
