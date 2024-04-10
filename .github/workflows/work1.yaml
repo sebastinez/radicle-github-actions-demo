@@ -17,6 +17,11 @@ jobs:
       - name: List files in the repository
         run: |
           ls ${{ github.workspace }}
+      - "asd" > asd.txt
       - run: sleep 60s
+      - "qwe" > qwe.txt 
       - run: echo "This job's status is ${{ job.status }}."
- 
+      - uses: actions/upload-artifact@v3
+        with:
+          name: Explore-GitHub-Actions
+          path: qwe.txt 
