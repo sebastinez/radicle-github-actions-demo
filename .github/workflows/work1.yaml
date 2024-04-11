@@ -24,4 +24,6 @@ jobs:
       - uses: actions/upload-artifact@v3
         with:
           name: Explore-GitHub-Actionss
-          path: ./
+          path: 
+            - qwe.txt
+            - asd.txt
