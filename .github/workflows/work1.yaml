@@ -23,9 +23,9 @@ jobs:
       - run: echo "This job's status is ${{ job.status }}."
       - uses: actions/upload-artifact@v3
         with:
-          name: Explore-GitHub-Actionss
+          name: Explore-GitHub-Actionss1
           path: asd.txt
       - uses: actions/upload-artifact@v3
         with:
-          name: Explore-GitHub-Actionss
+          name: Explore-GitHub-Actionss2
           path: qwe.txt
